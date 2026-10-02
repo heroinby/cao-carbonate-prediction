@@ -1,0 +1,33 @@
+{
+  "model": "Stack",
+  "features": [
+    "sio2",
+    "al2o3",
+    "fe2o3_tot",
+    "mgo",
+    "k2o",
+    "na2o",
+    "tio2",
+    "p2o5",
+    "mno"
+  ],
+  "target": "cao",
+  "interval_halfwidth_90": 4.31,
+  "holdout_metrics": {
+    "RMSE": 3.863,
+    "MAE": 2.386,
+    "R2": 0.947,
+    "в пределах ±2 п.п., %": 66.517
+  },
+  "selected_by": "CV RMSE на обучающей части (тест не использовался для выбора)",
+  "cv_metrics_train": {
+    "RMSE_mean": 3.206,
+    "RMSE_std": 0.048,
+    "MAE_mean": 1.828,
+    "MAE_std": 0.024,
+    "R2_mean": 0.933,
+    "R2_std": 0.002
+  },
+  "n_train_samples": 3208,
+  "note": "Обучено на глобальной базе карбонатных пород (США ~55%); на новом карьере проверить локально."
+}

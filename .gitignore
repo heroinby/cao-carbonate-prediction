@@ -1,0 +1,6 @@
+data/raw/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+catboost_info/
+.pytest_cache/
